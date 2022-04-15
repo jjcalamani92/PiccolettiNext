@@ -20,9 +20,10 @@ export const Layout: FC<Props> = ({ title, children,  pageDescription, imageFull
         <meta name="og:title" content={title} />
         <meta name="og:description" content={pageDescription} />
 
+      
         {
           imageFullUrl && (
-            <meta name="og:image" content={imageFullUrl} />
+            <meta property="og:image" content={imageFullUrl}/>
           )
         }
       </Head>

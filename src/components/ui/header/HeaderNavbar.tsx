@@ -25,17 +25,17 @@ export const HeaderNavbar = () => {
 						<div className="dropdown">
 						<ul>
 							<li className="dropdown-link" >
-								<Link href="/ropa/ropa_de_varon">
+								<Link href="/ropa/hombre">
 									<a>ropa de varon</a>
 								</Link>
 							</li>
 							<li className="dropdown-link" >
-								<Link href="/ropa/ropa_de_mujer">
+								<Link href="/ropa/mujer">
 									<a>ropa de mujer</a>
 								</Link>
 							</li>
 							<li className="dropdown-link" >
-								<Link href="/ropa/ropa_de_niño">
+								<Link href="/ropa/niño">
 									<a>ropa de niño</a>
 								</Link>
 							</li>

@@ -1,5 +1,6 @@
 export * from './header'
 export * from './banner'
 export * from './heading'
+export * from './details'
 export * from './footer'
 export * from './button'

@@ -4,12 +4,11 @@ export interface IProduct {
 	mark: string;
 	image: string[];
 	description: string;
-	use: string;
 	line: string;
 	category: string;
 	subCategory: string;
-	price: string;
-	oldPrice: string;
+	price: number;
+	oldPrice: number;
 	quantity: number;
 }
 
